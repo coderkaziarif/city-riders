@@ -1,18 +1,18 @@
-import { Card, CardMedia, makeStyles } from '@material-ui/core';
-import { Box, CardActionArea, CardContent, Grid, Typography } from '@mui/material';
+import { Card, CardMedia} from '@material-ui/core';
+import { CardActionArea, CardContent, Grid, Typography } from '@mui/material';
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
-const useStyles = makeStyles((theme) =>({
-   root: {
-      // maxWidth: 145,
-      // paddingTop: theme.spacing(5),
-      // marginTop: '65%',
+// const useStyles = makeStyles((theme) =>({
+//    root: {
+//       // maxWidth: 145,
+//       // paddingTop: theme.spacing(5),
+//       // marginTop: '65%',
       
-   },
+//    },
    
-}))
+// }))
 
 
 const Vehicle = ({vehicle}) => {

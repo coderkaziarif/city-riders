@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import {Box, Container, Grid} from '@mui/material';
+
+import {Box, Grid} from '@mui/material';
 import './Home.css';
 import Vehicle from '../Vehicle/Vehicle';
 
